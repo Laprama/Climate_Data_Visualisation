@@ -1,10 +1,11 @@
 ## Climate Data Visualisation Project
-This Repo will store work on my current project regarding visualisation of atmospheric data on map(s) of the Earth.
+This repository contains code and resources for visualising atmospheric climate data on global maps using the TROPOMI satellite.
 This README.md file will be updated as the project progresses. 
 
 ## Setup
 This code has been tested with 'Python 3.1.0'. 
 To get started create an environment using the command 'pip install -r requirements.txt'.
+Then Clone the repo and download the climate data per instructions below.
 
 ## Dowloading Climate Data 
 The data used in this project is from the TROPOMI (TROPOspheric Monitoring Instrument) satellite. 
