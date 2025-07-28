@@ -1,5 +1,8 @@
 # Ignore the data files
 Data/*
 
+# Ignore Figures folder (do not require all figures to be backed up)
+Figure/*
+
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
