@@ -2,7 +2,13 @@
 Data/*
 
 # Ignore Figures folder (do not require all figures to be backed up)
-Figure/*
+Figures/*
+
+
+# Ignore these test notebooks where I am trying out scripts
+Test_NB_Script_with_script_code.ipynb
+Test_Nb_for_Figures_Script.ipynb
+
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
