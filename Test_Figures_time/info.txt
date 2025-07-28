@@ -1,2 +1,0 @@
-These figures are generated to test the time change within unity. 
-Each figure will be easily distinguisahble from the others in terms of colour to test this function.
