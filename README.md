@@ -4,7 +4,10 @@ This README.md file will be updated as the project progresses.
 
 ## Setup
 This code has been tested with 'Python 3.1.0'. 
-To get started create an environment using the command 'pip install -r requirements.txt'.
+To get started create an environment using the command:
+```
+pip install -r requirements.txt
+```
 Then Clone the repo and download the climate data per instructions below.
 
 ## Dowloading Climate Data 
@@ -17,8 +20,9 @@ There is one file per day.
 These folders 01-12 should be placed in the Data/ folder of this project. 
 
 The entire set of 2023 data can be downloaded using WGET (21.8GB) via the command line with the command: 
- wget -e robots=off --mirror --no-parent -r https://dap.ceda.ac.uk/neodc/esacci/ghg/data/cci_plus/CH4_S5P_WFMD/v1.8_extended_june2024/2023/ 
-
+```
+wget -e robots=off --mirror --no-parent -r https://dap.ceda.ac.uk/neodc/esacci/ghg/data/cci_plus/CH4_S5P_WFMD/v1.8_extended_june2024/2023/ 
+```
 
  ## Code  Outputs
 
