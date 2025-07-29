@@ -1,6 +1,9 @@
 ## Climate Data Visualisation Project
 This repository contains code and resources for visualising atmospheric climate data on global maps using the TROPOMI satellite.
-This README.md file will be updated as the project progresses. 
+The outputs of this code can be imported into unity to create 3D interactive visualisations!
+
+
+![Summary Figure](Figures/Example_Figures/summary_example_fig.png)
 
 ## Setup
 This code has been tested with 'Python 3.1.0'. 
@@ -23,8 +26,18 @@ The entire set of 2023 data can be downloaded using WGET (21.8GB) via the comman
 ```
 wget -e robots=off --mirror --no-parent -r https://dap.ceda.ac.uk/neodc/esacci/ghg/data/cci_plus/CH4_S5P_WFMD/v1.8_extended_june2024/2023/ 
 ```
+## Code  
+The code consists of a set of notebooks and python script(s). 
+The Notebooks are commented and contain markdown information within - they ordered sequentially and build on one another. 
 
- ## Code  Outputs
+- Notebook 01 - Load and plot global methane data from January 1st 2023
+- Notebook 02 - Custom colouring of land and sea with land mask and custom 4K plot resolution
+- Notebook 03 - Mean data plotting and exploration (enables plotting of data over multiple days / weeks / months etc.)
+- Notebook 04 - Plot custom mean monthly global methane concentration for January 2023 - December 2023
+- Script Create_Monthly_Methane_Plots.py - Customisable script for plotting global atmospheric data, user defined script parameters at start of script
+
+
+## Code  Outputs
 
  This code can be used to plot atmospheric data such as the below plot of 2023 Global Methane Concentration: 
 
