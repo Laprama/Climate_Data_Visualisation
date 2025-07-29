@@ -28,7 +28,7 @@ wget -e robots=off --mirror --no-parent -r https://dap.ceda.ac.uk/neodc/esacci/g
 ```
 ## Code  
 The code consists of a set of notebooks and python script(s). 
-The Notebooks are commented and contain markdown information within - they ordered sequentially and build on one another. 
+The Notebooks are commented and contain markdown information within - they ordered sequentially and build on one another: 
 
 - Notebook 01 - Load and plot global methane data from January 1st 2023
 - Notebook 02 - Custom colouring of land and sea with land mask and custom 4K plot resolution
