@@ -34,6 +34,7 @@ The Notebooks are commented and contain markdown information within - they order
 - Notebook 02 - Custom colouring of land and sea with land mask and custom 4K plot resolution
 - Notebook 03 - Mean data plotting and exploration (enables plotting of data over multiple days / weeks / months etc.)
 - Notebook 04 - Plot custom mean monthly global methane concentration for January 2023 - December 2023
+- Notebook 05 - Plot colour bars on their own (Useful for interactive plots in Unity)
 - Script Create_Monthly_Methane_Plots.py - Customisable script for plotting global atmospheric data, user defined script parameters at start of script
 - Script generate_data_density_plots_script.py - Script for plotting data density across the Earth from TROPOMI showing how satellite coverage progress over days
 
