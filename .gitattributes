@@ -1,2 +1,3 @@
 # Correcting for git to show more accurate percentages in the Languages bar
 03_Tropomi_Data_Mean_Calculation.ipynb linguist-language=Python
+02_Load_Tropomi_Data_And_Initial_Plots.ipynb linguist-language=Python
